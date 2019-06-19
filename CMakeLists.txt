@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(cppbot LANGUAGES CXX)
 
 # look in for the RLUtilities directory next door
-add_subdirectory(../RLUtilities ${CMAKE_BINARY_DIR}/rlu)
+add_subdirectory(RLUtilities ${CMAKE_BINARY_DIR}/rlu)
 
 # let CMake know which files to compile for your bot library
 set(source_files
